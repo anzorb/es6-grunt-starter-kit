@@ -14,6 +14,3 @@ This starter-kit includes everything you need to write ES6 code, along with test
     grunt dist will compile, minify, extract sourcemaps and generate documentaion
     grunt karma:tdd compile, open browser and wait for code changes (test driven development)
     grunt karma:ci compile, generate coverage for Jenkins
-
-##### Issues
-1. karma:ci fails when using babel-plugin-rewire and running in Phantomjs (https://github.com/speedskater/babel-plugin-rewire/issues/109)
